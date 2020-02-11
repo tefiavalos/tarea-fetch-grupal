@@ -1,0 +1,19 @@
+api accesibiliza info.
+
+Promesa, cuando algo que puede pasar o no. Para escapar del
+asincronismo.- Para que algo que suceda no nos frene toda la pag. como un alert
+(porque js lee de arriba hacia abajo)
+const promesa = new Promise((resolve,reject) =>{})
+
+promesa.then(() => {
+}) //para resolve
+.catch(())//para atrapar el error y seguir ejecutando el resto del cod.
+
+recres.in (api)
+
+FETCH
+
+fetch("web de la api") fetch devuelve promesa
+.then(respuesta=> respuesta.json())//devuelve promesa
+data que no puedo leer en body (porque esta en json)
+.then(para resolver la promesa de json)

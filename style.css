@@ -1,0 +1,16 @@
+.card {
+    background-color: #ffff;
+    width: 300px;
+    box-shadow: 10px 10px 5px -4px rgb(167, 157, 167);
+    margin: 10px;
+}
+
+.card .img-user img {
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.info-user {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+}
